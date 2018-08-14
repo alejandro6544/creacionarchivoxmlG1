@@ -1,14 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creacionarchivoxmlg1.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="523.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="creacionarchivoxmlg1.FXMLDocumentController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Button fx:id="button" layoutX="84.0" layoutY="422.0" onAction="#handleButtonAction" prefHeight="40.0" prefWidth="148.0" text="Agregar Estudiante">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <Label fx:id="ltitulo" layoutX="102.0" layoutY="14.0" minHeight="16" minWidth="69" text="Agregar Estudiantes">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Label fx:id="lnombre" layoutX="116.0" layoutY="117.0" text="Nombre">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tnombre" layoutX="196.0" layoutY="107.0" prefHeight="40.0" prefWidth="212.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ttelefono" layoutX="196.0" layoutY="165.0" prefHeight="40.0" prefWidth="212.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="ltelefono" layoutX="116.0" layoutY="175.0" text="Telefono">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tcorreo" layoutX="196.0" layoutY="219.0" prefHeight="40.0" prefWidth="212.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lcorreo" layoutX="116.0" layoutY="239.0" text="Correo">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tcodigo" layoutX="196.0" layoutY="276.0" prefHeight="40.0" prefWidth="212.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lcodigo" layoutX="116.0" layoutY="286.0" text="código">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tcarrera" layoutX="196.0" layoutY="329.0" prefHeight="40.0" prefWidth="212.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lcarrera" layoutX="116.0" layoutY="339.0" text="Carrera">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="button1" layoutX="286.0" layoutY="422.0" onAction="#guardarXML" prefHeight="40.0" prefWidth="178.0" text="Guardar Archivo XML">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
     </children>
 </AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+  <estudiante>
+    <nombre>David</nombre>
+    <telefono>3202</telefono>
+    <correo>dacastro@uao.edu.co</correo>
+    <codigo>2011</codigo>
+    <carrera>Ingenieria informatica</carrera>
+  </estudiante>
+  <estudiante>
+    <nombre>Sofia</nombre>
+    <telefono>2010</telefono>
+    <correo>sgomez@uao.edu.co</correo>
+    <codigo>2002</codigo>
+    <carrera>Ingenieria ambiental</carrera>
+  </estudiante>
+</universidad>
